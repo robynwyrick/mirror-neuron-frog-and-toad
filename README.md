@@ -62,7 +62,7 @@ When extracted, `python_files/` contains sub-archives for each stage of the work
 - **`6_Layer_Activations/`**  
   - `pretrain.inference.py` **collects neuron activation data** layer by layer from trained models.
 
-- **`8_CMNI/`**  
+- **`7_CMNI/`**  
   - Scripts like `compute_cmni.py`, `inference.py`, `plot_temporal_cmni.py` for **calculating the CMNI** and producing final metrics/visualizations.
 
 **Usage:**
@@ -91,7 +91,7 @@ When extracted, `python_files/` contains sub-archives for each stage of the work
 ### 2.7 `7_statistical.plots.tgz`
 - **Visual plots** (PNG, PDF, etc.) representing statistical measures (mean, variance, kurtosis, skewness) for each neuron across the four \texttt{distress} scenarios.  
 
-### 2.8 `8_cmni_results.csv`
+### 2.8 `cmni_results.csv`
 - **Final CMNI** values for each checkpoint, summarizing mirror neuron-like activation strength.
 
 ---
