@@ -33,7 +33,7 @@ The artifacts in this repository follow a sequence matching the research pipelin
 7. **`7_statistical.plots.tgz`**  
    - **Statistical visualizations** (e.g., bar charts, box plots) of neuron activations and distribution metrics (mean, variance, skewness, kurtosis).
 
-8. **`8_cmni_results.csv`**  
+8. **`cmni_results.csv`**  
    - **CSV summary** of the final *Checkpoint Mirror Neuron Index (CMNI)* values computed for each model checkpoint.
 
 ---
@@ -110,9 +110,8 @@ To fully replicate the pipeline:
    - **Step 3** → Label each state (`3_Labeling_Step/labler.py`).  
    - **Step 4** → Create train/test splits (`4_Split_Testing_Data/split_test_train.py`).  
    - **Step 5** → Train the model(s) and produce checkpoints (`5_Pretraining/`).  
-   - **Step 6** → Collect neuron activations from inference (`6_Layer_Activations/`).  
-   - *(No direct step 7 script, though the naming is consistent.)*  
-   - **Step 8** → Compute CMNI and create final charts (`8_CMNI/compute_cmni.py`, etc.).
+   - **Step 6** → Collect neuron activations from inference (`6_Layer_Activations/`).   
+   - **Step 7** → Compute CMNI and create final charts (`7_CMNI/compute_cmni.py`, etc.).
 
 3. **Use or Skip Training**  
    - **If re-training**: The script in step 5 will produce fresh checkpoint files.  
